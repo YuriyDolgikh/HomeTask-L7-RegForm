@@ -13,20 +13,26 @@
     border-radius: 20px;
     padding: 16px;
     background: #FFFFFF;
-    box-shadow: 0px 20px 32px 0px rgba(96, 97, 112, 0.24);
+    box-shadow: 0px 20px 32px 0px #6061703D;
+}
+
+.block_close {
+    display: flex;
+    justify-content: end;
+    width: 388px;
+    height: 24px;
 }
 
 .x_close {
-    width: 24;
-    height: 24;
-    margin-left: 364px;
+    width: 24px;
+    height: 24px;
 }
 
 .content {
     display: flex;
     flex-direction: column;
-    width: 388;
-    height: 370;
+    width: 388px;
+    height: 370px;
     gap: 24px;
     padding-right: 16px;
     padding-bottom: 16px;
@@ -34,112 +40,75 @@
 }
 
 .header {
-    width: 356;
-    height: 32;
-    border-width: 1px;
+    height: 32px;
     font-family: Nunito;
     font-weight: 800;
     font-size: 28px;
     line-height: 32px;
-    letter-spacing: 0%;
     vertical-align: middle;
 }
 
-.reg_form {
+.form {
     display: flex;
     flex-direction: column;
-    width: 356;
-    height: 104;
+    gap: 24px;
+}
+
+.input-submit {
+    display: flex;
+    flex-direction: column;
+    height: 104px;
     gap: 8px;
-    font-family: Nunito;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0%;
 }
 
-.form_font {
-    font-family: Nunito;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0%;
-}
-
-.email {
-    width: 356;
-    height: 48;
-    border-width: 1px;
+.email-psw {
+    height: 48px;
+    border: 1px solid #CFD8DC;
     padding-top: 14px;
     padding-right: 16px;
     padding-bottom: 14px;
     padding-left: 16px;
     border-radius: 12px;
-    border-color: rgba(207, 216, 220, 1);
-}
-
-.password {
-    width: 356;
-    height: 48;
-    border-width: 1px;
-    gap: 10px;
-    padding-top: 14px;
-    padding-right: 16px;
-    padding-bottom: 14px;
-    padding-left: 16px;
-    border-radius: 12px;
-    border-color: rgba(207, 216, 220, 1);
-    color: rgba(207, 216, 220, 1);
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 input:focus {
-    outline: rgba(255, 228, 77, 1);
-    border: 2px solid rgba(255, 228, 77, 1);
-    caret-color: rgba(255, 228, 77, 1);
+    outline: #FFE44D;
+    border: 2px solid #FFE44D;
+    caret-color: #FFE44D;
 }
 
 .text {
-    width: 356;
-    height: 42;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    height: 42px;
     font-family: Nunito;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
-    letter-spacing: 0%;
-    color: rgba(123, 142, 152, 1);
-}
+    color: #7B8E98;
 
-.submit_form {
-    display: flex;
-    flex-direction: column;
-    width: 356;
-    height: 104;
-    gap: 8px;
 }
 
 .btn_register {
-    width: 356;
-    height: 48;
+    height: 48px;
     padding-top: 14px;
     padding-right: 24px;
     padding-bottom: 14px;
     padding-left: 24px;
     border-radius: 55px;
     border: none;
-    background-color: rgba(255, 228, 77, 1);
+    background-color: #FFE44D;
     font-family: Nunito;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    letter-spacing: 0%;
-    color: rgba(26, 26, 26, 1);
+    color: #1A1A1A;
 }
 
 .btn_login {
-    width: 356;
-    height: 48;
+    height: 48px;
     border-width: 1px;
     gap: 10px;
     padding-top: 14px;
@@ -147,12 +116,11 @@ input:focus {
     padding-bottom: 14px;
     padding-left: 24px;
     border-radius: 87px;
-    background-color: rgba(255, 255, 255, 1);
-    border-color: rgba(207, 216, 220, 1);
+    background-color: #FFFFFF;
+    border: 1px solid #CFD8DC;
     font-family: Nunito;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    letter-spacing: 0%;
-    color: rgba(26, 26, 26, 1);
+    color: #1A1A1A;
 }
