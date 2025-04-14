@@ -17,16 +17,16 @@
 }
 
 .x_close {
-    width: 24;
-    height: 24;
+    width: 24px;
+    height: 24px;
     margin-left: 364px;
 }
 
 .content {
     display: flex;
     flex-direction: column;
-    width: 388;
-    height: 370;
+    width: 388px;
+    height: 370px;
     gap: 24px;
     padding-right: 16px;
     padding-bottom: 16px;
@@ -34,8 +34,8 @@
 }
 
 .header {
-    width: 356;
-    height: 32;
+    width: 356px;
+    height: 32px;
     border-width: 1px;
     font-family: Nunito;
     font-weight: 800;
@@ -48,8 +48,8 @@
 .reg_form {
     display: flex;
     flex-direction: column;
-    width: 356;
-    height: 104;
+    width: 356px;
+    height: 104px;
     gap: 8px;
     font-family: Nunito;
     font-weight: 400;
@@ -67,8 +67,8 @@
 }
 
 .email {
-    width: 356;
-    height: 48;
+    width: 356px;
+    height: 48px;
     border-width: 1px;
     padding-top: 14px;
     padding-right: 16px;
@@ -79,8 +79,8 @@
 }
 
 .password {
-    width: 356;
-    height: 48;
+    width: 356px;
+    height: 48px;
     border-width: 1px;
     gap: 10px;
     padding-top: 14px;
@@ -99,8 +99,8 @@ input:focus {
 }
 
 .text {
-    width: 356;
-    height: 42;
+    width: 356px;
+    height: 42px;
     padding-top: 24px;
     padding-bottom: 24px;
     font-family: Nunito;
@@ -114,14 +114,14 @@ input:focus {
 .submit_form {
     display: flex;
     flex-direction: column;
-    width: 356;
-    height: 104;
+    width: 356px;
+    height: 104px;
     gap: 8px;
 }
 
 .btn_register {
-    width: 356;
-    height: 48;
+    width: 356px;
+    height: 48px;
     padding-top: 14px;
     padding-right: 24px;
     padding-bottom: 14px;
@@ -138,8 +138,8 @@ input:focus {
 }
 
 .btn_login {
-    width: 356;
-    height: 48;
+    width: 356px;
+    height: 48px;
     border-width: 1px;
     gap: 10px;
     padding-top: 14px;
